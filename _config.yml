@@ -1,0 +1,117 @@
+title: LegalWorks PRO
+tagline: 'Legal help when you need it most'
+description: "We believe everyone deserves access to quality legal advice, and we're committed to making that a reality for you."
+url: https://legalworks.pro
+repo: LegalWorks
+google_analytics_id: G-S917MF3FS5
+
+permalink: ':categories/:title.html'
+timezone: Europe/Istanbul
+
+exclude: ["z_serve.bat", "*.ai", "install.php"]
+
+collections_dir: data
+collections:
+  personal-injury-law:
+    name: Personal injury law
+    output: true
+    permalink: /:collection/:name.html
+
+  criminal-law:
+    name: Criminal law
+    output: true
+    permalink: /:collection/:name.html
+
+  family-law:
+    name: Family law
+    output: true
+    permalink: /:collection/:name.html
+
+  employment-law:
+    name: Employment law	
+    output: true
+    permalink: /:collection/:name.html
+
+  real-estate-law:
+    name: Real estate law
+    output: true
+    permalink: /:collection/:name.html
+
+  intellectual-property-law:
+    name: Intellectual property law
+    output: true
+    permalink: /:collection/:name.html
+
+  immigration-law:
+    name: Immigration law
+    output: true
+    permalink: /:collection/:name.html
+
+  business-law:
+    name: Business law
+    output: true
+    permalink: /:collection/:name.html
+
+  estate-planning-and-probate-law:
+    name: Estate planning and probate law
+    output: true
+    permalink: /:collection/:name.html
+
+  tax-law:
+    name: Tax law
+    output: true
+    permalink: /:collection/:name.html
+
+  bankruptcy-law:
+    name: Bankruptcy law
+    output: true
+    permalink: /:collection/:name.html
+
+  consumer-law:
+    name: Consumer law
+    output: true
+    permalink: /:collection/:name.html
+
+  environmental-law:
+    name: Environmental law
+    output: true
+    permalink: /:collection/:name.html
+
+  civil-rights-law:
+    name: Civil rights law
+    output: true
+    permalink: /:collection/:name.html
+
+  insurance-law:
+    name: Insurance law
+    output: true
+    permalink: /:collection/:name.html
+
+  education-law:
+    name: Education law
+    output: true
+    permalink: /:collection/:name.html
+
+  international-law:
+    name: International law
+    output: true
+    permalink: /:collection/:name.html
+
+  military-law:
+    name: Military law
+    output: true
+    permalink: /:collection/:name.html
+
+  admiralty-and-maritime-law:
+    name: Admiralty and maritime law
+    output: true
+    permalink: /:collection/:name.html
+
+  sports-and-entertainment-law:
+    name: Sports and entertainment law
+    output: true
+    permalink: /:collection/:name.html
+
+# Gems
+plugins:
+  - jekyll-sitemap
